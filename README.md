@@ -21,9 +21,9 @@ Welcome to the Nmap Scanner GUI, an intuitive interface for performing network s
 
 1. Clone this repository:
 
-git clone https://github.com/yourusername/nmapv2.git
+2. git clone https://github.com/yourusername/nmapv2.git
 
-cd nmapv2
+3. cd nmapv2
 
 
 **install the required system packages:**
@@ -53,7 +53,8 @@ python requirements.py
 
 
 
-**Usage**
+## Usage
+
 Run the Nmap Scanner GUI:
 
 python nmap2.py
@@ -73,9 +74,7 @@ View the results in the text area.
 Optionally, clear the results or save them to a file using the provided buttons.
 
 
-
-
-**Example Scripts and Flags**
+## Example Scripts and Flags
 
 vuln: Example: nmap <target> -p <port> --script vuln
 
@@ -92,8 +91,7 @@ ssl-cert: Example: nmap <target> -p 443 --script ssl-cert
 and more...
 
 
-
-**Nmap Flags** 
+## Nmap Flags 
 
 -sS: Example: nmap <target> -sS
 
@@ -111,14 +109,17 @@ and more...
 
 and more...
 
-**Contributing**
+
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
 
-**License**
+
+## License
 
 This project is licensed under the MIT License.
 
-**Author** 
+
+## Author
 
 This script is owned by Winston Ighodaro. Visit me at https://store.cybergenereation.tech
