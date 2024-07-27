@@ -21,7 +21,8 @@ Welcome to the Nmap Scanner GUI, an intuitive interface for performing network s
 
 1. Clone this repository:
 
-git clone https://github.com/yourusername/nmap-scanner-gui.git
+git clone https://github.com/yourusername/nmap2.git
+
 cd nmap-scanner-gui
 install the required system packages:
 
