@@ -17,7 +17,7 @@ Welcome to the Nmap Scanner GUI, an intuitive interface for performing network s
 - python-nmap
 - colorama
 
-**Installation**
+## Installation
 
 1. Clone this repository:
 
@@ -25,27 +25,32 @@ git clone https://github.com/yourusername/nmapv2.git
 
 cd nmapv2
 
+
 **install the required system packages:**
 
 **On Debian-based systems (e.g., Ubuntu):**
 
 sudo apt-get install python3-tk
 
+
 **On Red Hat-based systems (e.g., CentOS):**
 
 sudo yum install python3-tkinter
+
 
 **On macOS:**
 
 brew install python-tk
 
-**Install all dependencies via the provided script:**
+
+## Install all dependencies via the provided script:
 
 After installing the required packages you have to install dependencies and i have made this easy by writing a script that does this for you, all you have to do is run it.
 
 cd nmapv2
 
 python requirements.py
+
 
 
 **Usage**
@@ -68,6 +73,8 @@ View the results in the text area.
 Optionally, clear the results or save them to a file using the provided buttons.
 
 
+
+
 **Example Scripts and Flags**
 
 vuln: Example: nmap <target> -p <port> --script vuln
@@ -83,6 +90,8 @@ ssh-brute: Example: nmap <target> -p 22 --script ssh-brute
 ssl-cert: Example: nmap <target> -p 443 --script ssl-cert
 
 and more...
+
+
 
 **Nmap Flags** 
 
