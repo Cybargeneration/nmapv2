@@ -24,7 +24,7 @@ Welcome to the Nmap Scanner GUI, an intuitive interface for performing network s
 2. git clone https://github.com/yourusername/nmapv2.git
 
 
-## install the required system packages (Optional)
+## Install the required system packages (Optional)
 
 **On Debian-based systems (e.g., Ubuntu):**
 
