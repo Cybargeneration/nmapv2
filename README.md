@@ -23,10 +23,8 @@ Welcome to the Nmap Scanner GUI, an intuitive interface for performing network s
 
 2. git clone https://github.com/yourusername/nmapv2.git
 
-3. cd nmapv2
 
-
-**install the required system packages:**
+## install the required system packages:
 
 **On Debian-based systems (e.g., Ubuntu):**
 
@@ -57,7 +55,11 @@ python requirements.py
 
 Run the Nmap Scanner GUI:
 
-python nmap2.py
+cd nmapv2
+
+python3 requirements.py
+
+python nmapv2.py
 
 Enter the target IP address or hostname.
 
