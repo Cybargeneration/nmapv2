@@ -24,7 +24,7 @@ Welcome to the Nmap Scanner GUI, an intuitive interface for performing network s
 2. git clone https://github.com/yourusername/nmapv2.git
 
 
-## install the required system packages:
+## install the required system packages (Optional)
 
 **On Debian-based systems (e.g., Ubuntu):**
 
@@ -41,7 +41,7 @@ sudo yum install python3-tkinter
 brew install python-tk
 
 
-## Install all dependencies via the provided script:
+## Install all dependencies
 
 After installing the required packages you have to install dependencies and i have made this easy by writing a script that does this for you, all you have to do is run it.
 
@@ -54,10 +54,6 @@ python requirements.py
 ## Usage
 
 Run the Nmap Scanner GUI:
-
-cd nmapv2
-
-python3 requirements.py
 
 python nmapv2.py
 
